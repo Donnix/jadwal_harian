@@ -1,0 +1,84 @@
+
+
+* {
+margin: 0px;
+padding: 0;
+scroll-behavior: smooth;
+transition: 0.5s ease-out;
+}
+/*LOGIN REGS*/
+.sidenav {
+    height: 100%;
+    background-color: #0755ff;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.main {
+    padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-form{
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .login-main-text{
+    margin-top: 30%;
+    margin-left:-15px;
+    padding: 60px;
+    color: #fff;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .login-form{
+        margin-top: 60%;
+        margin-bottom: 5%;
+    }
+    .register-form{
+        margin-top: 35%;
+        margin-bottom: 10%;
+    }
+    .login-main-text{
+    margin-top: 30%;
+    margin-left:-15px;
+    padding: 60px;
+    color: #fff;
+    }
+}
+
+.login-main-text{
+    margin-top: 30%;
+    margin-left: -25px;
+    padding: 60px;
+    color: #fff;
+}
+.login-main-text h2{
+    font-weight: 300;
+}
+.login-main-text a{
+   text-decoration: none;
+   color: black;
+}
+/*END LOGIN REGS*/
+
